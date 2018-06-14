@@ -1,7 +1,12 @@
 # Write a speak_to_grandma method.
-def speak_to_grandma(phrase = "Hi Grandma!")
-  puts "HUH?! SPEAK UP, SONNY!"
+def speak_to_grandma
+  puts "I love you Grandma"
+  if false
+    puts "HUH?! SPEAK UP, SONNY"
+  else 
+    puts "NO, NOT SINCE 1938"
 end
+
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
