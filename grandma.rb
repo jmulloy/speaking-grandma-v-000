@@ -3,8 +3,9 @@ def speak_to_grandma
   puts "I love you Grandma"
   if false
     puts "HUH?! SPEAK UP, SONNY"
-  else 
+  else
     puts "NO, NOT SINCE 1938"
+  end
 end
 
 # Whatever you say to grandma, she should respond with
