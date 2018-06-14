@@ -1,9 +1,11 @@
 # Write a speak_to_grandma method.
-def speak_to_grandma(phrase = "I LOVE YOU GRANDMA!")
+def speak_to_grandma(phrase)
   if (phrase != phrase.upcase)
-      puts "HUH?! SPEAK UP, SONNY!"
-      else
-      puts "NO, NOT SINCE 1938!"
+       "HUH?! SPEAK UP, SONNY!"
+     elsif (phrase == "I LOVE YOU GRANDMA!")
+       "I LOVE YOU TOO PUMPKIN!"
+     else
+       "NO, NOT SINCE 1938!"
   end
 end
 
